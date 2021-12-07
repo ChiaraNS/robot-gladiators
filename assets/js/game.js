@@ -69,6 +69,8 @@ for (var i = 0; i < enemyNames.length; i++) {
 }
 
 for (var i = 0; i < enemyNames.length; i++) {
-    debugger;
-    fight(enemyNames[i]);
+    var pickedEnemyName = enemyNames [i];
+    enemyHealth = 50
+    // fight function with enemy robot
+    fight(pickedEnemyName);
 }
